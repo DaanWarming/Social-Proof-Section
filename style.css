@@ -1,0 +1,143 @@
+
+
+
+.container {
+    margin-left: 100px;
+    margin-top: 60px;
+    font-family: Spartan, serif;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 11% 3%, 68% 70%;
+    display: grid;
+    grid-template-columns: 0.3fr 1.6fr 1.8fr 0.3fr;
+    grid-template-rows: 1.3fr 1.3fr 0.4fr;
+    gap: 1px 1px;
+    grid-template-areas:
+      ". general-info ratings ."
+      ". testimonials testimonials ."
+      ". . . .";
+  }
+  .general-info { grid-area: general-info; }
+  .ratings { grid-area: ratings; }
+  .testimonials { grid-area: testimonials; }
+
+.container {
+    padding: 5rem 12rem;
+}
+
+.general-info {
+    margin-top: 2rem;
+}
+
+.general-info h1 {
+    font-size: 48px;
+    color:  hsl(300, 43%, 22%);
+    width: 28rem;
+    line-height: 100%;
+    margin-bottom: -3px;
+}
+
+.general-info p {
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    width: 29rem;
+    line-height: 160%;
+}
+.ratings {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rated-reviews, .rated-report, .rated-besttech {
+    background-color: #f7f2f8;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: -5px;
+    width: 70%;
+    height: 23%;
+    color: #511f50;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rated-reviews img, .rated-report img, .rated-besttech img {
+    margin-right: -24px;
+    margin-left: 30px;
+}
+
+.rated-reviews p, .rated-report p, .rated-besttech p {
+    margin-left: 60px;
+}
+.rated-reviews {
+    margin-right: 170px;
+}
+
+.rated-report {
+    margin-left: -80px;
+}
+
+.rated-besttech {
+    margin-left: 10px;
+}
+
+.testimonials {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.testimonial-1, .testimonial-2, .testimonial-3 {
+    background-color: #511f50;
+    max-width: 26.5%;
+    max-height: 195px;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-top: 38px;
+}
+
+.testimonial-1 p, .testimonial-2 p, .testimonial-3 p {
+    color: #fff5ff;
+}
+
+.buyer-name {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 65px;
+    margin-top: -37px;
+}
+
+#verified-buyer {
+    font-size: 13px;
+    color: #954f83;
+    margin-left: 65px;
+    margin-top: -8px;
+}
+
+.testimonial-1 img, .testimonial-2 img, .testimonial-3 img {
+    border-radius: 50%;
+    width: 12%;
+    height: auto;
+}
+
+.testimonial-p {
+    padding-top: 15px;
+    margin-right: 26px;
+    font-size: 13px;
+    line-height: 180%;
+}
+
+.testimonial-2 {
+    margin-left: 30px;
+    margin-top: 17px;
+}
+
+.testimonial-3 {
+    margin-left: 30px;
+    margin-top: 34px;
+}
