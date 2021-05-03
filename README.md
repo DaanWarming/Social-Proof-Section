@@ -1,4 +1,4 @@
-# Social-Proof-Section
+Show live demo here: https://daanwarming.github.io/Social-Proof-Section/
 
 This project was a practice project made from frontendmentor.io
 
